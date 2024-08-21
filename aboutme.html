@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- default cookie consent start ---------------------------------------------------------------------------------------------------------->
+    
+    <script>
+  
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+      
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied',
+          'wait_for_update' : 500
+        });
+        gtag('set', 'ads_data_redaction', true);
+      
+        </script>
+<!-- default cookie consent end ---------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Library/WebServer/Documents/viktorijacom/styles.css">
+    <title>About me</title>
+</head>
+<body>
+
+
+
+
+
+</body>
+<div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-banner-content">
+        <!--<button class="close-btn">&times;</button> -->
+        <h4>Cookies</h4>
+        <p>This website uses analytics cookies.</p>
+        <div class="buttons">
+            <button class="accept-btn" onclick= "closePopup(); acceptAll()">Accept</button>
+            <button class="deny-btn" onclick= "closePopup(); denyAll()" >Deny</button>
+        </div>
+    </div>
+    <div class="cookie-image">
+        <img src=chocolate-chip-cookies-isolated-white-background-ai-generative_123827-24066.avif alt="cookie image">
+    </div>
+    
+</div>
+  <!-----------------------------------------------------------------------Website contents START ---------------------------------------------------------------------------------------------------->
+
+  <nav>
+    <ul class="horizontal-list">
+      <li><a href="/Library/WebServer/Documents/viktorijacom/Viktorijacom.html">Home</a></li>
+      <li><a href="https://www.linkedin.com/in/viktorija-venckute-694278149/" target="_newtab" >Linkedin</a></li>
+      <li><a a id="mailto" href="mailto:vivenckute@gmail.com" target="_newtab">email</a></li>
+
+      </button>
+      </a>
+    </ul>
+  </nav>
+
+ 
+
+
+    <div class="paragraph1">
+      <h1>Languages </h1>
+      
+      <h2>English </h2> 
+      bilingual proficiency   
+      <h2>Swedish</h2>
+      fluent
+      <h2>Lithuanian </h2>
+      native
+      <p>Born and raised in Lithuania,  I have always had a strong interest in the English language, which led me to complete a degree in English. <br>
+        I moved to Sweden as a young adult and, through hard work, have reached a level of fluency in Swedish. </p>
+    </div>
+    <div class="paragraph2">
+      <h1>Digital Analytics Intern</h1>
+      <h2>Resurs Bank</h2>
+      <p>
+        <li>Google Analytics 4</li>
+        <li>GTM Tagging Implementation</li>
+        <li>Looker Studio</li>
+        <li>Universal Analytics</li>
+        <li>BigQuery</li>
+        <li>DataForm</li>
+      </p>
+    </div>
+    <div class="paragraph3">
+      <h1>Digital Analytics Intern</h1>
+      <h2>Eon</h2>
+      <p>
+        
+        <li>Universal Analytics</li>
+        <li>A/B Testing (Optimze)</li>
+        <li>Looker Studio</li>
+        <li>Delivering Data insights in a form of presentation</li>
+        <li>Google Analytics 4</li>
+     
+        
+    </div>
+  
+ <!-----------------------------------------------------------------------Website contents END ---------------------------------------------------------------------------------------------------->
+ <!------------------------------------------------------------------Cookie banner functions START ------------------------------------------------------------>
+ <script>
+    function closePopup() { 
+    var Popup = document.getElementById("cookie-banner");
+    Popup.style.display = "none";
+  }
+  </script>
+ 
+ <script>
+    if (document.cookie.includes("consent")) {
+      document.getElementById("cookie-banner").style.display = "none";
+    }ß
+    
+    
+      function acceptAll() {
+    window.dataLayer=window.dataLayer|| [];
+    window.dataLayer.push({
+    event: 'consent',
+    ad_storage: 'granted',
+    analytics_storage: 'granted',
+    });
+    }
+    function denyAll() {
+    window.dataLayer=window.dataLayer|| [];
+    window.dataLayer.push({
+    event: 'consent',
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+    });
+    }
+    
+    
+    
+    function denyAll() {
+    const d = new Date();
+    d.setTime(d.getTime() + (7 * 24 * 60 * 60 * 1000));
+    const expires = `expires=${d.toUTCString()}`;
+    document.cookie = `consent=denied; ${expires}; path=/; SameSite=Strict; Secure`;
+    }
+    function acceptAll() {
+    const d = new Date();
+    d.setTime(d.getTime() + (7 * 24 * 60 * 60 * 1000));
+    const expires = `expires=${d.toUTCString()}`;
+    document.cookie = `consent=granted; ${expires}; path=/; SameSite=Strict; Secure`;
+    }
+    </script>
+<!------------------------------------------------------------------Cookie banner functions END ------------------------------------------------------------>
+</html>

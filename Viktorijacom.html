@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- default cookie consent start ---------------------------------------------------------------------------------------------------------->
+    
+    <script>
+  
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+      
+        gtag('consent', 'default', {
+          'ad_storage': 'denied',
+          'analytics_storage': 'denied',
+          'wait_for_update' : 500
+        });
+        gtag('set', 'ads_data_redaction', true);
+      
+        </script>
+<!-- default cookie consent end ---------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Viktorija</title>
+</head>
+<body>
+    <style>
+ /*-----------------------------------------------------------------------cookie banner style START ----------------------------------------------------------------------------------------------------*/       
+
+    
+    .cookie-banner {
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        position: fixed;
+        top: 40%;
+        left: 20%;
+        right: 10%;
+        text-align: center;
+        width: 50%;
+    }
+    
+    .cookie-banner-content {
+        max-width: 60%;
+    }
+    
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border: none;
+        background: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    h2 {
+        margin-top: 0;
+    }
+    
+    p {
+        color: #555;
+        line-height: 1.5;
+    }
+    
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .accept-btn, .deny-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .accept-btn {
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .preferences-btn {
+        background-color: #f0f0f0;
+        color: #e41111;
+    }
+    
+    .accept-btn:hover {
+        background-color: #0f9c12;
+    }
+    
+    .preferences-btn:hover {
+        background-color: #e0e0e0;
+    }
+    
+    .cookie-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    
+    .cookie-image img {
+        width: 160px;
+        height: 110px;
+    }
+/*-----------------------------------------------------------------------cookie banner style END ----------------------------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------Website contents style START ----------------------------------------------------------------------------------------------------*/
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #e4717a, #ffffff);
+  align-items: flex-start;
+  padding-top: 0px;
+  justify-content: center;
+  height: 170vh;
+  margin: 0;
+  position: relative;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+}
+
+p.name-text {
+  font-size: 50px;
+    font-weight: bold;
+    color: #440335;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh; /* makes sure the container takes full page height for vertical centering */
+  margin: 0;
+  text-shadow: 
+        2px 2px 0px #FF69B4, 
+       -2px -2px 0px #FF69B4, 
+       -2px 2px 0px #FF69B4,  
+        2px -2px 0px #FF69B4;
+}
+
+p.name-text img.img {
+  border-radius: 50%;
+  margin-left: 20px;
+  float: right;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about-me {
+margin-right: 5%;
+margin-left: 5%;
+padding: 30px;
+border-radius: 20px;
+background: linear-gradient(to bottom, #f7d9d9, #ffffff);
+width: 80%;
+    
+}
+
+.skills {
+    background: linear-gradient(to bottom, #f7d9d9, #ffffff);
+    margin-right: 5%;
+  margin-left: 5%;
+  padding: 30px;
+  width: 80%;
+    border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.work-experiences {
+    background: linear-gradient(to bottom, #f7d9d9, #ffffff);
+    margin-right: 5%;
+  margin-left: 5%;
+  padding: 30px;
+  width: 80%;
+    border-radius: 10px;
+    
+}
+.education {
+  background: linear-gradient(to bottom, #f7d9d9, #ffffff);
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  
+    
+}
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+}
+
+ul.horizontal-list {
+  list-style-type: none; /* Remove bullet points */
+  display: flex; /* Display elements on a row */
+  justify-content: center; /* Add this to center the list horizontally */
+}
+
+ul.horizontal-list li {
+  margin: 0 15px; /* Space between list items */
+}
+
+ul.horizontal-list li a {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Text color */
+  padding: 10px 20px; /* Padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+ul.horizontal-list li a:hover {
+  background-color: #ddd; /* Background color on hover */
+}
+.Readmore {
+  color: #696767;
+}
+/*-----------------------------------------------------------------------Website contents style END ----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+</style>
+
+<div class="cookie-banner" id="cookie-banner">
+    <div class="cookie-banner-content">
+        <!--<button class="close-btn">&times;</button> -->
+        <h4>Cookies</h4>
+        <p>This website uses analytics cookies.</p>
+        <div class="buttons">
+            <button class="accept-btn" onclick= "closePopup(); acceptAll()">Accept</button>
+            <button class="deny-btn" onclick= "closePopup(); denyAll()" >Deny</button>
+        </div>
+    </div>
+    <div class="cookie-image">
+        <img src=chocolate-chip-cookies-isolated-white-background-ai-generative_123827-24066.avif alt="cookie image">
+    </div>
+    
+</div>
+
+</body>
+
+  <!-----------------------------------------------------------------------Website contents START ---------------------------------------------------------------------------------------------------->
+
+  <nav>
+    <ul class="horizontal-list">
+      <li><a href="https://www.linkedin.com/in/viktorija-venckute-694278149/" target="_newtab" >Linkedin</a></li>
+      <li><a a id="mailto" href="mailto:vivenckute@gmail.com" target="_newtab">email</a></li>
+      <!--<li><a href="#https://www.instagram.com/viktorija_venckute_/" target="_newtab">Instagram</a></li>-->
+    </ul>
+  </nav>
+
+  <div class="content">
+    <p class="name-text">Digital Analyst <br> Viktorija
+      Venckute Daugele
+ <img class="img" src="viktorija.jpg" alt="Profile Picture"> </p>
+
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <p>
+        A combination of technical and soft skills that enable me to see business needs, implement tracking solutions acordingly, reach data driver insights and deliver them efectively. <br>
+        <a href="/Library/WebServer/Documents/viktorijacom/skills.html" class="Readmore">Read more</a>
+      </p>
+    </div>
+    <div class="work-experiences">
+      <h2>Work Experience</h2>
+      <p>
+        I have gained knowledge and experience of various tools and subject areas within digital analytics through my current role as a Digital Analytics Architect in an international agency (Media.Monks). As well as though two digital analytics internships in large international companies (Resurs Bank & E.on).
+        <br>
+        <a href="/Library/WebServer/Documents/viktorijacom/experience.html" class="Readmore">Read more</a></p>
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <p>
+        With an education in Digital Analytics and Business English, I have a combination of technical skills in digital analytics and understanding of how they can be leveraged to serve business objectives. <br>
+        <a href="/Library/WebServer/Documents/viktorijacom/education.html" class="Readmore">Read more</a>
+      </p>
+    </div>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>
+        From aspiring artist, to psychology student, to translator and English tutor to digital data analyst who's finally happy with the chosen path.
+        <br>
+        <a href="/Library/WebServer/Documents/viktorijacom/aboutme.html" class="Readmore">Read more</a></p>
+    </div>
+  </div>
+  
+ <!-----------------------------------------------------------------------Website contents END ---------------------------------------------------------------------------------------------------->
+
+  <!------------------------------------------------------------------Cookie banner functions START ------------------------------------------------------------>
+<script>
+    function closePopup() { 
+    var Popup = document.getElementById("cookie-banner");
+    Popup.style.display = "none";
+  }
+  </script>
+
+<script>
+if (document.cookie.includes("consent")) {
+  document.getElementById("cookie-banner").style.display = "none";
+}ß
+
+
+  function acceptAll() {
+window.dataLayer=window.dataLayer|| [];
+window.dataLayer.push({
+event: 'consent',
+ad_storage: 'granted',
+analytics_storage: 'granted',
+});
+}
+function denyAll() {
+window.dataLayer=window.dataLayer|| [];
+window.dataLayer.push({
+event: 'consent',
+ad_storage: 'denied',
+analytics_storage: 'denied',
+});
+}
+
+
+
+function denyAll() {
+const d = new Date();
+d.setTime(d.getTime() + (7 * 24 * 60 * 60 * 1000));
+const expires = `expires=${d.toUTCString()}`;
+document.cookie = `consent=denied; ${expires}; path=/; SameSite=Strict; Secure`;
+}
+function acceptAll() {
+const d = new Date();
+d.setTime(d.getTime() + (7 * 24 * 60 * 60 * 1000));
+const expires = `expires=${d.toUTCString()}`;
+document.cookie = `consent=granted; ${expires}; path=/; SameSite=Strict; Secure`;
+}
+</script>
+  <!---------------------------------Cookie banner functions END ------------------------------------------------------------>
+
+
+
+
+
+
+
+
+    <!--------------------------------------------------------------------------------------------->
+</html>
